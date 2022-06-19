@@ -1,0 +1,55 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script><link href="https://zizbstomi.github.io/gamon-/gaya.css" rel="stylesheet" type="text/css" /><script src="https://bestie.feeldream.repl.co/script.js"></script>
+<head>
+<title>Buat Mely</title>
+</head>
+<style>
+:root {
+--warna-bg: rgba(0, 0, 0, .15); 
+--warna-teks: white;
+--bingkai: 5px;
+}
+</style>
+<body><div id="bodyblur"><img id="wallpaper" src="" width="100%" height="100%"/></div>
+
+<div id='Content'><p id="idgeser"></p>
+
+<div><blockquote id='bq'><img id="foto1" src=""/><img id="foto2" src=""/><img id="foto3" src=""/><p id="katakata"></p><p id="katabawah"></p><p id="akhiran" onClick="menuju();">[ Jawab ]</p></blockquote></div>
+
+<div id="contTom" style="display:none;"><a id="By" class='button' onClick="lanjut()"></i>PLAY</a></div>
+</div>
+
+<script>const body = document.querySelector("body");function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);</script>
+<script>
+  fungsi=1;
+  async function lanjut(){
+    	  if(fungsi==1){audio.play();By.innerHTML="Lanjut";katakata.style="opacity:0;";katabawah.innerHTML = "";setTimeout(otomatis,900);setTimeout(otomatisa,3000);contTom.style="display:none";setTimeout(tombol,5000);fungsi=2}
+  else if(fungsi==2){fungsi=3;akhiran.innerHTML="[ Kirim Pesan ]";foto2.style="display:none";foto3.style="display:inline-flex";katakata.innerHTML = katakhir;katabawah.innerHTML = katakhirb;otomatis();setTimeout(fakhiran,1000);contTom.style="display:none";}
+  }
+  async function menuju(){if(fungsi==3){await swals.fire('Kirim chat wa');window.location = "https://api.whatsapp.com/send?phone=6285693293563&text=" + pesanwhatsapp;setTimeout(maubucin,3500);}}
+</script>
+
+<script type="text/javascript">
+      async function apapun() {
+         audio = new Audio('https://bestie.feeldream.repl.co/lagu.mp3');
+         wallpaper.src = "https://i.ibb.co/MRkvjVh/IMG-20220415-163430-685.jpg";
+   
+         gambar1 = "https://i.ibb.co/g4ZkLS9/yes.gif";
+         kata1 = "Coba Klik Tombol PLAY di Bawah Ya Bestie";
+         kata1b = "Gedein Volumenya &#129315;";
+         
+         gambar2 = "https://i.ibb.co/whq6f1T/yy.gif";
+         kata2 = "Tante-tante, Anaknya PRENZONE Tante &#129315;";
+         kata2b = "Tante-tante Kasian :v";
+         
+         gambar3 = "https://i.ibb.co/gWC9pKD/wlee.gif";
+         katakhir = "Hha Becanda &#129315;";
+         katakhirb = "Happy Graduation Sary Novita Mely";
+         
+         await swals.fire('Wellcome', 'Lihat Ini Ya Bestie');
+         pesanwhatsapp = "";
+         setTimeout(showDiv,1000);loadfoto();
+      } apapun();
+</script>
+</body>
+</html>
